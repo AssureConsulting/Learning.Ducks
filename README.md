@@ -1,5 +1,5 @@
 # Ducks
-Some fun learning composition.
+Some fun learning composition and publishing to a package manager.
 
 ## Learning Tasks
 * Publish to package manager (see https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-using-visual-studio?tabs=netcore-cli)
