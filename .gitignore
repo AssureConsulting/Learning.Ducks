@@ -1,5 +1,7 @@
 .idea/
 .vs/
+*.user
+**/*.user
 bin/
 obj/
 riderModule.iml

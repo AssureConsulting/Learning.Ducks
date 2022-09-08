@@ -1,8 +1,9 @@
 # Ducks
 Some fun learning composition.
 
-## Learning Task
-Implement swimming
+## Learning Tasks
+* Implement swimming
+* Add a rocket powered robot duck
 
 ## Credit
 Based on https://github.com/slobaton/ducks
