@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DucksTest", "DucksTest\DucksTest.csproj", "{9F49C3AB-1AD9-42E7-B526-38B98A1B903F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DucksLib", "DucksLib\DucksLib.csproj", "{B47AC023-979F-424C-8043-096FA67585B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F49C3AB-1AD9-42E7-B526-38B98A1B903F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F49C3AB-1AD9-42E7-B526-38B98A1B903F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F49C3AB-1AD9-42E7-B526-38B98A1B903F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F49C3AB-1AD9-42E7-B526-38B98A1B903F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B47AC023-979F-424C-8043-096FA67585B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B47AC023-979F-424C-8043-096FA67585B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B47AC023-979F-424C-8043-096FA67585B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B47AC023-979F-424C-8043-096FA67585B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
