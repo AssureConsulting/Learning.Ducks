@@ -1,5 +1,5 @@
 # Ducks
-Some fun learning composition.
+Some fun learning composition and considering the merits of choosing 'has-a' over 'is-a'.
 
 ## Learning Tasks
 * Implement swimming
