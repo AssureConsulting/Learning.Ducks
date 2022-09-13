@@ -29,7 +29,7 @@ public class DucksLibTests
     {
         Assert.That(_mallardDuck?.QuackState, Is.Null);
         _mallardDuck?.Quack();
-        Assert.That(_mallardDuck?.QuackState, Is.EqualTo("Quack"));
+        Assert.That(_mallardDuck?.QuackState, Is.EqualTo("Quack!!!"));
         
         Assert.That(_decoyDuck?.QuackState, Is.Null);
         _decoyDuck?.Quack();
