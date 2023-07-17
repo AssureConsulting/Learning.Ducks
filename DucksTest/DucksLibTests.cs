@@ -56,3 +56,4 @@ public class DucksLibTests
         Assert.That(_rubberDuck?.FlyingState, Is.EqualTo("Nothing"));
     }
     
+}

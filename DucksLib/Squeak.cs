@@ -6,3 +6,4 @@ public class Squeak : NaturalQuack
     {
         quackState.QuackState = "Squeak";
     }
+}

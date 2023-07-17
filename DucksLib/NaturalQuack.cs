@@ -6,3 +6,4 @@ public class NaturalQuack : QuackBehaviour
     {
         quackState.QuackState = "Quack";
     }
+}
