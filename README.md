@@ -3,7 +3,7 @@ Some fun learning composition and considering the merits of choosing 'has-a' ove
 
 
 ## Learning Tasks
-* Publish to package manager (see https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-using-visual-studio?tabs=netcore-cli)
+* Change the Mallard's quack to "Quack quack quack" without touching either the MallardDuck.cs or Duck.cs files
 * Implement swimming
 * Add a rocket powered robot duck
 
