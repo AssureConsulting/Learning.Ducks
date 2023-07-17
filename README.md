@@ -1,5 +1,5 @@
 # Ducks
-Some fun learning composition and considering the merits of choosing 'has-a' over 'is-a'.
+Some fun learning composition and considering the merits of choosing 'has-a' over 'is-a' and the Open-Closed principle.
 
 
 ## Learning Tasks
