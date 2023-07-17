@@ -20,4 +20,3 @@
       <ProjectReference Include="..\DucksLib\DucksLib.csproj" />
     </ItemGroup>
 
-</Project>

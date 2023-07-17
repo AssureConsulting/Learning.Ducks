@@ -34,4 +34,3 @@ public abstract class Duck : IFlyingState, IQuackState
 
     public abstract string Display { get; }
 
-}

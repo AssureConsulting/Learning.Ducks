@@ -6,4 +6,3 @@ public class RubberDuck : Duck
 
     public override string Display => "I'm a rubber duck";
 
-}

@@ -6,4 +6,3 @@ public class NoFly : FlyBehaviour
     {
         flyingState.FlyingState = "Nothing";
     }
-}

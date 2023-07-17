@@ -6,4 +6,3 @@ public sealed class NoQuack : QuackBehaviour
     {
         quackState.QuackState = "Silence";
     }
-}
