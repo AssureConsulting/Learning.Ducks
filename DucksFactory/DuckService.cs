@@ -1,16 +1,22 @@
-﻿namespace DucksFactory;
+﻿using System.Collections.Generic;
+
+namespace DucksFactory;
 
 public static class DuckService
 {
-    public static T? Create<T>()
-        where T : class, IDuck, new()
+    private static readonly IDictionary<Type, IDuck> _ducks;
+
+    static DuckService()
     {
-        if (typeof(T) == typeof(MallardDuck))
-            return DuckBuilder.Create<T, FlyWithWings, NaturalQuack>();
-        else if (typeof(T) == typeof(RubberDuck)) 
-            return DuckBuilder.Create<T, NoFly, Squeak>();
-        else 
-            return DuckBuilder.Create<T, NoFly, NoQuack>();
+        _ducks = new ReadOnlyDictionary
+        {
+            { typeof(MallardDuck), DuckBuilder.Create<T, FlyWithWings, NaturalQuack>() },
+            { typeof(RubberDuck), DuckBuilder.Create<T, NoFly, Squeak>() },
+            { typeof(DecoyDuck), DuckBuilder.Create<T, NoFly, NoQuack>() }
+        };
     }
+
+    public static T? Create<T>()
+        where T : class, IDuck, new() => _ducks.ContainsKey(typeof(T)) ? _ducks[typeof(T)] : default;
 
 }
