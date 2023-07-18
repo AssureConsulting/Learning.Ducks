@@ -1,6 +1,6 @@
-namespace Savaged.Info.Ducks;
+namespace DucksLib;
 
-public abstract class Duck : IFlyingState, IQuackState
+public abstract class Duck : IDuck
 {
     private readonly IFlyBehaviour _flyBehavior;
     private readonly IQuackBehaviour _quackBehavior;

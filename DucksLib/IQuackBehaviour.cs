@@ -1,4 +1,4 @@
-namespace Savaged.Info.Ducks;
+namespace DucksLib;
 
 public interface IQuackBehaviour
 {

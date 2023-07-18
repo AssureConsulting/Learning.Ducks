@@ -1,4 +1,4 @@
-namespace Savaged.Info.Ducks;
+namespace DucksLib;
 
 public abstract class QuackBehaviour : IQuackBehaviour
 {
