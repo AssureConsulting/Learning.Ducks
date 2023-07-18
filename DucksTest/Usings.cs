@@ -1,3 +1,4 @@
 global using NUnit.Framework;
-global using Savaged.Info.Ducks;
+global using DucksLib;
+global using DucksFactory;
 

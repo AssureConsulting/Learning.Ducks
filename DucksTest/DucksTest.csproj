@@ -17,6 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\DucksFactory\DucksFactory.csproj" />
       <ProjectReference Include="..\DucksLib\DucksLib.csproj" />
     </ItemGroup>
 
