@@ -8,15 +8,14 @@ public static class DuckService
 
     static DuckService()
     {
-        _ducks = new ReadOnlyDictionary
+        _ducks = new Dictionary<Type, IDuck>
         {
-            { typeof(MallardDuck), DuckBuilder.Create<T, FlyWithWings, NaturalQuack>() },
-            { typeof(RubberDuck), DuckBuilder.Create<T, NoFly, Squeak>() },
-            { typeof(DecoyDuck), DuckBuilder.Create<T, NoFly, NoQuack>() }
+            { typeof(MallardDuck), DuckBuilder.Create<MallardDuck, FlyWithWings, NaturalQuack>() },
+            { typeof(RubberDuck), DuckBuilder.Create<RubberDuck, NoFly, Squeak>() },
+            { typeof(DecoyDuck), DuckBuilder.Create<DecoyDuck, NoFly, NoQuack>() }
         };
     }
 
     public static T? Create<T>()
-        where T : class, IDuck, new() => _ducks.ContainsKey(typeof(T)) ? _ducks[typeof(T)] : default;
-
+        where T : class, IDuck, new() => _ducks.ContainsKey(typeof(T)) ? _ducks[typeof(T)] as T : default;
 }
